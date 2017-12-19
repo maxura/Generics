@@ -2,16 +2,16 @@ package com.book;
 
 public class Pair<T> {
   private T first;
-  private T secomd;
+  private T second;
 
   public Pair() {
     first = null;
-    secomd = null;
+    second = null;
   }
 
     public Pair(T first, T second) {
         this.first=first;
-        this.secomd=second;
+        this.second=second;
     }
 
     public T getFirst() {
@@ -19,14 +19,14 @@ public class Pair<T> {
     }
 
     public T getSecond() {
-        return secomd;
+        return second;
     }
 
     public void setFirst(T first) {
         this.first = first;
     }
 
-    public void setSecomd(T secomd) {
-        this.secomd = secomd;
+    public void setSecond(T second) {
+        this.second = second;
     }
 }

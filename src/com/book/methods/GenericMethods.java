@@ -1,4 +1,4 @@
-package com.book;
+package com.book.methods;
 
 public class GenericMethods {
   public static void main(String[] args) {
