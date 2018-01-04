@@ -6,6 +6,8 @@ public class ArrExample {
         objects[0] = 1;
         objects[1] =2;
 
-        Experem exp = new Experem("dsdadf");
+        Experem exp = new Experem(1);
+        String a = (String)exp.getT();
+        System.out.println(a);
     }
 }

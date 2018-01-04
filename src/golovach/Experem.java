@@ -1,5 +1,7 @@
 package golovach;
 
+import java.util.List;
+
 public class Experem <T>{
     private T t;
 
@@ -13,5 +15,9 @@ public class Experem <T>{
 
     public void setT(T t) {
         this.t = t;
+    }
+
+    public <T extends Number> T someMet(T t){
+        return t;
     }
 }
